@@ -1,0 +1,759 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="رحلة تفاعلية للتعرف على مقتنيات وتقنيات المتحف المصري الكبير">
+    <meta name="author" content="عبدالرحمن أحمد - اللجنة العلمية">
+
+    <title>المتحف المصري الكبير | كنوز الحضارة</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Amiri:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- شريط علوي -->
+<div class="top-line"></div>
+
+<!-- Header -->
+<header class="site-header">
+
+    <a class="brand" href="#home">
+        <span class="brand-mark">𓂀</span>
+
+        <span>
+            <strong>المتحف المصري الكبير</strong>
+            <small>GRAND EGYPTIAN MUSEUM</small>
+        </span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة">
+        ☰
+    </button>
+
+    <nav class="main-nav" id="mainNav">
+        <a href="#home">الرئيسية</a>
+        <a href="#about">عن المتحف</a>
+        <a href="#collection">المقتنيات</a>
+        <a href="#technology">تقنيات المتحف</a>
+        <a href="#quiz">اختبر معلوماتك</a>
+    </nav>
+
+    <a class="header-cta" href="#collection">
+        ابدأ الجولة <span>←</span>
+    </a>
+
+</header>
+
+
+<main>
+
+    <!-- القسم الرئيسي -->
+    <section class="hero" id="home">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+
+            <span class="eyebrow">
+                بوابة إلى حضارة لا تنتهي
+            </span>
+
+            <h1>
+                حكاية آلاف السنين
+                <br>
+                <em>تُروى من جديد</em>
+            </h1>
+
+            <p>
+                اكتشف مقتنيات المتحف المصري الكبير، وتأمل روائع
+                المصري القديم، وتعرّف على التقنيات الحديثة التي
+                تساعد في الحفاظ على هذا الإرث الإنساني العظيم.
+            </p>
+
+            <div class="hero-actions">
+
+                <a href="#collection" class="btn btn-gold">
+                    اكتشف المقتنيات
+                    <span>↙</span>
+                </a>
+
+                <a href="#technology" class="text-link">
+                    اكتشف تقنيات المتحف
+                </a>
+
+            </div>
+
+            <div class="hero-note">
+
+                <span class="note-symbol">𓆣</span>
+
+                <span>
+                    من الماضي إلى المستقبل
+                    <br>
+                    <b>رحلة داخل المتحف المصري الكبير</b>
+                </span>
+
+            </div>
+
+        </div>
+
+        <div class="hero-side-caption">
+            GIZA · EGYPT
+        </div>
+
+        <div class="hero-bottom">
+            <span>01 / 04</span>
+            <span class="scroll-line"></span>
+            <span>مرر لاكتشاف المزيد</span>
+        </div>
+
+    </section>
+
+
+    <!-- نبذة عن المتحف -->
+    <section class="intro section-wrap reveal" id="about">
+
+        <div class="intro-number">01</div>
+
+        <div class="intro-copy">
+
+            <span class="section-kicker">
+                وجهة ثقافية عالمية
+            </span>
+
+            <h2>
+                أكثر من مجرد
+                <br>
+                <em>متحف</em>
+            </h2>
+
+        </div>
+
+        <p class="intro-text">
+            يقع المتحف المصري الكبير بالقرب من أهرامات الجيزة،
+            ويقدم رحلة متكاملة عبر تاريخ الحضارة المصرية القديمة.
+
+            يضم المتحف قاعات عرض رئيسية، وكنوز الملك توت عنخ آمون،
+            ومتحف مراكب الملك خوفو، إلى جانب مركز متخصص
+            لحفظ وترميم الآثار.
+        </p>
+
+    </section>
+
+
+    <!-- مقتنيات المتحف -->
+    <section class="collection-section section-wrap" id="collection">
+
+        <div class="section-heading reveal">
+
+            <div>
+                <span class="section-kicker">
+                    مختارات من داخل المتحف
+                </span>
+
+                <h2>
+                    كنوز تستحق
+                    <em>الاكتشاف</em>
+                </h2>
+            </div>
+
+            <p>
+                تعرّف على مجموعة من أبرز المعروضات والمساحات
+                الأثرية بالمتحف المصري الكبير.
+                اضغط على أي بطاقة لقراءة التفاصيل.
+            </p>
+
+        </div>
+
+
+        <!-- البحث والتصنيف -->
+        <div class="collection-tools">
+
+            <label class="search-box">
+                <span>⌕</span>
+
+                <input
+                    type="search"
+                    id="searchInput"
+                    placeholder="ابحث عن قطعة أو ملك..."
+                    aria-label="ابحث في المقتنيات"
+                >
+            </label>
+
+            <select id="categoryFilter" aria-label="تصفية المقتنيات">
+
+                <option value="all">كل المقتنيات</option>
+
+                <option value="تماثيل">تماثيل</option>
+
+                <option value="كنوز ملكية">كنوز ملكية</option>
+
+                <option value="مراكب">مراكب</option>
+
+                <option value="معالم المتحف">معالم المتحف</option>
+
+                <option value="مقتنيات ملكية">مقتنيات ملكية</option>
+
+            </select>
+
+        </div>
+
+
+        <!-- JavaScript سيعرض المقتنيات هنا -->
+        <div class="artifact-grid" id="artifactGrid"></div>
+
+        <p class="empty-state" id="emptyState" hidden>
+            لا توجد نتائج مطابقة. جرّب كلمة بحث أخرى.
+        </p>
+
+        <p class="content-note">
+            هذه مجموعة مختارة من مقتنيات ومعالم المتحف،
+            وليست قائمة كاملة بجميع القطع الأثرية.
+        </p>
+
+    </section>
+
+
+    <!-- تقنيات المتحف -->
+    <section class="museum-tech" id="technology">
+
+        <div class="tech-bg-pattern"></div>
+
+        <div class="section-wrap tech-inner">
+
+            <div class="section-heading light-heading reveal">
+
+                <div>
+
+                    <span class="section-kicker">
+                        العلم في خدمة التراث
+                    </span>
+
+                    <h2>
+                        كيف يحافظ المتحف على
+                        <em>التاريخ؟</em>
+                    </h2>
+
+                </div>
+
+                <p>
+                    خلف قاعات العرض توجد منظومة علمية متخصصة
+                    لدراسة القطع الأثرية وحمايتها وتوثيقها.
+                </p>
+
+            </div>
+
+
+            <!-- مركز الترميم والحفظ -->
+            <div class="tech-feature">
+
+                <div
+                    class="tech-feature-image"
+                    role="img"
+                    aria-label="معمل حفظ وترميم الآثار"
+                ></div>
+
+                <div class="tech-feature-copy">
+
+                    <span class="gold-index">
+                        GEM CONSERVATION CENTRE
+                    </span>
+
+                    <h3>
+                        مركز الترميم
+                        <br>
+                        والحفظ
+                    </h3>
+
+                    <p>
+                        يضم مركز الترميم والحفظ معامل متخصصة
+                        ومخازن ذات تحكم بيئي، ويعمل به مرممون
+                        وعلماء وباحثون لدراسة القطع الأثرية
+                        ومعالجتها وتوثيقها.
+
+                        ويشمل العمل التعامل مع مواد أثرية
+                        متنوعة مثل الخشب والتوابيت والمنسوجات
+                        والبردي والزجاج والسيراميك.
+                    </p>
+
+                    <a
+                        href="https://gem.museum/the-museum/conservation-centre"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        التعرّف على المركز في الموقع الرسمي ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- التقنيات -->
+            <div class="tech-grid">
+
+                <article class="tech-card reveal">
+
+                    <span class="tech-number">01</span>
+
+                    <div class="tech-icon">⌁</div>
+
+                    <h3>التوثيق الرقمي</h3>
+
+                    <p>
+                        تسجيل بيانات القطع الأثرية وحالتها
+                        ونتائج دراستها، بما يدعم البحث العلمي
+                        ومتابعة تاريخ كل قطعة.
+                    </p>
+
+                </article>
+
+
+                <article class="tech-card reveal">
+
+                    <span class="tech-number">02</span>
+
+                    <div class="tech-icon">◉</div>
+
+                    <h3>المراقبة البيئية</h3>
+
+                    <p>
+                        متابعة درجات الحرارة والرطوبة
+                        والضوء وملوثات الهواء للمساعدة
+                        في ضبط بيئة العرض والتخزين.
+                    </p>
+
+                </article>
+
+
+                <article class="tech-card reveal">
+
+                    <span class="tech-number">03</span>
+
+                    <div class="tech-icon">✧</div>
+
+                    <h3>التحليل غير الإتلافي</h3>
+
+                    <p>
+                        أساليب علمية تساعد على فحص المواد
+                        الأثرية ودراستها دون إحداث تلف متعمد
+                        في القطعة.
+                    </p>
+
+                </article>
+
+
+                <article class="tech-card reveal">
+
+                    <span class="tech-number">04</span>
+
+                    <div class="tech-icon">❖</div>
+
+                    <h3>الحفظ الوقائي</h3>
+
+                    <p>
+                        إجراءات لحماية المقتنيات من عوامل
+                        التلف قبل حدوث الضرر، أثناء العرض
+                        أو التخزين أو النقل.
+                    </p>
+
+                </article>
+
+
+                <article class="tech-card reveal">
+
+                    <span class="tech-number">05</span>
+
+                    <div class="tech-icon">⌬</div>
+
+                    <h3>المعامل المتخصصة</h3>
+
+                    <p>
+                        معامل للتعامل مع مواد متنوعة مثل
+                        الخشب والورق والمنسوجات والجداريات
+                        والبردي والزجاج والسيراميك.
+                    </p>
+
+                </article>
+
+
+                <article class="tech-card reveal">
+
+                    <span class="tech-number">06</span>
+
+                    <div class="tech-icon">⟡</div>
+
+                    <h3>الواقع المختلط</h3>
+
+                    <p>
+                        تجربة تفاعلية رقمية تساعد الزائر
+                        على التعرف على أسرار الأهرامات
+                        بطريقة حديثة.
+                    </p>
+
+                </article>
+
+            </div>
+
+
+            <div class="principles">
+
+                <span>مبادئ عمل المركز</span>
+
+                <b>الحد الأدنى من التدخل</b>
+
+                <i></i>
+
+                <b>الحفظ الوقائي</b>
+
+                <i></i>
+
+                <b>التحليل غير الإتلافي</b>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- الاختبار -->
+    <section class="quiz-section section-wrap" id="quiz">
+
+        <div class="quiz-heading reveal">
+
+            <span class="section-kicker">
+                هل أصبحت خبيرًا بالمتحف؟
+            </span>
+
+            <h2>
+                اختبر معلوماتك
+                <br>
+                <em>واربح شهادة تقدير</em>
+            </h2>
+
+            <p>
+                أجب عن الأسئلة، واحصل على شهادة باسمك
+                توثق إنجازك في رحلة اكتشاف المتحف المصري الكبير.
+            </p>
+
+        </div>
+
+
+        <div class="quiz-panel" id="quizPanel">
+
+
+            <!-- بداية الاختبار -->
+            <div class="quiz-start" id="quizStart">
+
+                <div class="quiz-emblem">𓂀</div>
+
+                <h3>تحدي كنوز المتحف</h3>
+
+                <p>
+                    اختبار من 8 أسئلة عن مقتنيات المتحف
+                    وتقنيات الحفظ والترميم.
+                </p>
+
+                <label class="name-label" for="visitorName">
+                    اكتب اسمك للحصول على الشهادة
+                </label>
+
+                <input
+                    id="visitorName"
+                    type="text"
+                    maxlength="50"
+                    placeholder="الاسم بالكامل"
+                >
+
+                <button
+                    class="btn btn-gold full-btn"
+                    id="startQuiz"
+                    type="button"
+                >
+                    ابدأ الاختبار
+                    <span>←</span>
+                </button>
+
+                <small>
+                    تأكد من كتابة اسمك بشكل صحيح قبل البدء.
+                </small>
+
+            </div>
+
+
+            <!-- أسئلة الاختبار -->
+            <div class="quiz-play" id="quizPlay" hidden>
+
+                <div class="quiz-topline">
+
+                    <span id="questionCounter">
+                        السؤال 1 من 8
+                    </span>
+
+                    <span id="scoreCounter">
+                        النتيجة: 0
+                    </span>
+
+                </div>
+
+
+                <div class="progress-track">
+                    <span id="progressBar"></span>
+                </div>
+
+
+                <h3 id="questionText"></h3>
+
+
+                <div class="answers" id="answers"></div>
+
+
+                <div
+                    class="quiz-feedback"
+                    id="quizFeedback"
+                    aria-live="polite"
+                ></div>
+
+
+                <button
+                    class="btn btn-gold full-btn"
+                    id="nextQuestion"
+                    type="button"
+                    disabled
+                >
+                    السؤال التالي ←
+                </button>
+
+            </div>
+
+
+            <!-- النتيجة -->
+            <div class="quiz-result" id="quizResult" hidden>
+
+                <div class="result-medal">🏅</div>
+
+                <span class="section-kicker">
+                    اكتملت الرحلة
+                </span>
+
+                <h3 id="resultTitle">
+                    أحسنت!
+                </h3>
+
+                <p id="resultMessage"></p>
+
+
+                <div class="result-score">
+
+                    <strong id="finalScore">
+                        0 / 8
+                    </strong>
+
+                    <span>درجتك النهائية</span>
+
+                </div>
+
+
+                <button
+                    class="btn btn-gold full-btn"
+                    id="showCertificate"
+                    type="button"
+                >
+                    استخرج شهادة التقدير
+                </button>
+
+
+                <button
+                    class="restart-btn"
+                    id="restartQuiz"
+                    type="button"
+                >
+                    إعادة الاختبار
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- شهادة التقدير -->
+        <section
+            class="certificate"
+            id="certificate"
+            aria-label="شهادة التقدير"
+            hidden
+        >
+
+            <div class="certificate-frame">
+
+                <div class="certificate-inner">
+
+                    <div class="cert-top-symbol">
+                        𓂀
+                    </div>
+
+                    <span class="cert-overline">
+                        GRAND EGYPTIAN MUSEUM
+                    </span>
+
+                    <h2>شهادة تقدير</h2>
+
+                    <p class="cert-intro">
+                        تُمنح هذه الشهادة إلى
+                    </p>
+
+                    <h3 id="certificateName">
+                        اسم الزائر
+                    </h3>
+
+                    <p class="cert-body">
+                        تقديرًا لمشاركته المتميزة وإتمامه
+                        اختبار المعرفة الخاص بالمتحف المصري الكبير،
+                        واهتمامه بالتعرف على كنوز الحضارة المصرية
+                        وسبل الحفاظ عليها.
+                    </p>
+
+
+                    <div class="cert-score">
+
+                        <span>النتيجة</span>
+
+                        <strong id="certificateScore">
+                            0 / 8
+                        </strong>
+
+                    </div>
+
+
+                    <div class="cert-footer">
+
+                        <span>
+                            اتحاد طلاب مدرسة أبو رواش الثانوية المشتركة
+                        </span>
+
+                        <span id="certificateDate"></span>
+
+                    </div>
+
+
+                    <div class="cert-seal">
+                        GEM
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="certificate-actions">
+
+                <button
+                    class="btn btn-gold"
+                    id="printCertificate"
+                    type="button"
+                >
+                    طباعة / حفظ PDF
+                </button>
+
+                <button
+                    class="restart-btn"
+                    id="hideCertificate"
+                    type="button"
+                >
+                    إغلاق الشهادة
+                </button>
+
+            </div>
+
+        </section>
+
+    </section>
+
+
+    <!-- الخاتمة -->
+    <section class="closing-banner">
+
+        <span>𓋹</span>
+
+        <h2>
+            تراث الأمس... إلهام الغد
+        </h2>
+
+        <p>
+            المتحف المصري الكبير؛ حيث يلتقي عبق التاريخ بروح المستقبل.
+        </p>
+
+        <a
+            href="https://gem.eg/en/"
+            target="_blank"
+            rel="noopener"
+            class="text-link"
+        >
+            زيارة الموقع الرسمي للمتحف ↗
+        </a>
+
+    </section>
+
+</main>
+
+
+<!-- Footer -->
+<footer class="site-footer">
+
+    <a class="brand footer-brand" href="#home">
+
+        <span class="brand-mark">𓂀</span>
+
+        <span>
+            <strong>المتحف المصري الكبير</strong>
+            <small>GRAND EGYPTIAN MUSEUM</small>
+        </span>
+
+    </a>
+
+
+    <div class="project-credit">
+
+        <p>
+            مشروع مقدم من اتحاد طلاب مدرسة أبو رواش الثانوية المشتركة
+        </p>
+
+        <p>
+            إعداد الطالب: <strong>عبدالرحمن أحمد</strong>
+        </p>
+
+        <p>
+            <strong>اللجنة العلمية</strong>
+        </p>
+
+    </div>
+
+
+    <p class="project-note">
+        مشروع تعريفي تفاعلي مستقل لأغراض تعليمية وثقافية،
+        وليس الموقع الرسمي للمتحف.
+    </p>
+
+
+    <span class="copyright">
+        © 2026 جميع الحقوق محفوظة
+    </span>
+
+</footer>
+
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
